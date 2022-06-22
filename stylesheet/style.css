@@ -1,0 +1,233 @@
+/* ****************** CSS FONT __LINK ********************** */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* ****************** CSS FONT __LINK ********************** */
+
+/* ****************** CSS VARIABLE BEGINS ********************** */
+
+:root {
+      --color-red: rgb(185, 26, 26);
+      --color-white: white;
+      --color-black: black;
+      --color-grey: gray; 
+      --color-light: rgba(66, 69, 69, 0.18);
+      --box-shadow: 0 2rem 3rem var(--color-light);
+      --header-font: 25px; 
+      --normal-font: 20px;
+      --small-font: 14px;
+      --font-small: 12px;
+      --ssmall-font: 11.5px;
+      --xsmall-font:18px;
+      --font-family: 'Poppins', sans-serif;
+
+     
+}
+
+/* ****************** CSS VARIABLE ENDS ********************** */
+
+/* ****************** DEFAULT BEGINS ********************** */
+img {
+      width: 100%;
+}
+button {
+      padding: 0;
+      margin: 0;
+}
+::before::after {
+       box-sizing: border-box;
+}
+html {
+       scroll-behavior: smooth;
+   
+}
+h1,h2,h3,h4,h5,p {
+       padding: 0;
+       margin: 0;
+}
+body {
+       padding: 0;
+       margin: 0 ;
+       font-family: var(--font-family);
+     
+}
+
+a {
+      text-decoration: none;
+}
+
+.container {
+      width: 100vw;
+      height: 100vh;
+      position: relative;
+      overflow: hidden;
+      background: var(--color-red);
+}
+
+/* ****************** DEFAULT ENDS ********************** */
+
+/* ****************** FORM SECTION BEGINS ********************** */
+.form__section {
+       width: 70%;
+       height: 70%;
+       box-shadow: var(--box-shadow);
+       border-radius: 20px;
+       margin: 8rem auto;
+       background: var(--color-white); 
+       overflow: hidden;  
+       /* display: grid;
+       grid-template-columns: 1fr 1fr; */
+
+}
+.form__grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      position: relative;
+}
+
+/* /* ****************** FORM CONTENT REGISTER BEGINS********************** */ 
+.form__content {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+}
+
+/* /* ****************** FORM CONTENT REGISTER ENDS********************** */ 
+
+/* /* ****************** FORM CONTENTS LOGIN BEGINS********************** */ 
+.form__contents {
+     position: absolute;
+     top: 0rem;
+     right: 32rem;
+     width: 100%;
+
+}
+
+/* /* ****************** FORM CONTENTSZ REGISTER******* ENDS*************** */ 
+.inner__form {
+      display: flex;
+      flex-direction: column;
+      margin: 4rem 6rem;
+      position: relative;
+}
+ h3 {
+      text-transform: capitalize;
+      color: var(--color-red);
+      font-size: var(--header-font);
+      font-weight: 600;
+      
+ }
+
+
+.form__group {
+      width: 100%;
+      height: 100%;
+      position: relative;     
+}
+
+label {
+      color: var(--color-grey);
+      text-transform: capitalize;
+      font-size: var(--small-font);
+      line-height: 30px;
+      font-weight: 200;
+}
+.inp {
+      line-height: 35px;
+}
+input{
+      width: 95%;
+      height: 40px;
+      padding-left: 1rem;
+      border-radius: 8px;
+      outline: none;
+      border: 1px solid var(--color-grey);
+      background-color: var(--color-light);
+}
+input:focus {
+     color: var(--color-grey);
+}
+
+input::placeholder {
+     color: var(--color-grey);
+     text-transform: capitalize;
+}
+.btn {
+     margin-top: 1.5rem;
+     position: relative;
+     cursor: pointer;
+}
+.btn1 {
+     width: 165px;
+     gap: 2px;
+     height: 40px ;
+     border-radius: 8px;
+     text-transform: capitalize;
+     color: var(--color-red);
+     background: var(--color-light);
+     border: 1px solid var(--color-grey);
+     font-size: var(--small-font);
+     font-weight: 600;
+     cursor: pointer;
+
+}
+.btn1:hover {
+     background: var(--color-red);
+     color: var(--color-white);
+}
+.input[type="checkbox"] {
+
+    width: 40px; 
+    border-radius: 1rem;
+    outline: none;
+    border: 1px solid var(--color-grey);
+    background-color: ;
+    color: var(--color-grey);
+    height: 20px;
+    
+}
+
+.check__box {
+     display: flex;
+    
+}
+
+.check__b {
+     margin-top: 1rem;
+     display: flex;
+     line-height: 15px;
+     width: 250px;
+     height: 30px;
+    
+}
+small {
+     font-size: var(--ssmall-font);
+}
+.red {
+     color: var(--color-red);
+     font-weight: 400;
+}
+
+/* ****************form__img begins************** */
+
+.form__img {
+     display: flex;
+     position: relative;
+     align-items: center;
+     margin-right: 6rem;
+     margin-top: 1.5rem;
+}
+
+/* ****************form__img ends************** */
+
+/* **************** login form  begins************** */
+
+
+
+/* ****************** FORM SECTION ENDS ********************** */
+
+
+
+
+
+
